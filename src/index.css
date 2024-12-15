@@ -1,0 +1,91 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body{
+  background: #862f887a;
+}
+
+.to-do-list{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+
+}
+h1{
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.add-button{
+  background: #2bbb1e;
+  
+}
+
+.add-button:hover{
+  background: hsl(115, 80%, 29%);
+  
+}
+
+.delete-button{
+  background: #990505;
+}
+
+.delete-button:hover{
+  background: hsl(8, 77%, 23%);
+}
+
+.mark-button{
+  background: #0934e1ac;
+  width: 30px;
+  height: 40px;
+  
+}
+
+
+
+input[type ="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid #02071b2f;
+  border-radius: 10px;
+  color: #080f2a5d;
+}
+ol{
+  padding: 0;
+}
+
+li{
+  padding: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: white;
+  border: 3px solid;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+.delete-button,.mark-button{
+  margin-left: 10px;
+  font-size: 1.4rem;
+  padding: 8px 12px;
+}
+
+
+
+
